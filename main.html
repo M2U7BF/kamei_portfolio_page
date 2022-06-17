@@ -4,6 +4,8 @@
     <title></title>
     <!-- css読み込み -->
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/validate.js"></script>
 </head>
 
 <body>
@@ -123,19 +125,19 @@
                 <ul class="contact_list">
                     <li class="contact_list_item">
                         <p>お名前</p>
-                        <input type="text" placeholder="名前を記入" value="">
+                        <input type="text" class="jsc_form" placeholder="名前を記入" value="">
                     </li>
                     <li class="contact_list_item">
                         <p>メールアドレス</p>
-                        <input type="text" placeholder="メールアドレスを記入" value="">
+                        <input type="text" class="jsc_form" placeholder="メールアドレスを記入" value="">
                     </li>
                     <li class="contact_list_item">
                         <p>お電話番号</p>
-                        <input type="text" placeholder="お電話番号を記入" value="">
+                        <input type="text" class="jsc_form" placeholder="お電話番号を記入" value="">
                     </li>
                     <li class="contact_list_item">
                         <p>お問い合わせ内容</p>
-                        <textarea name="" id="" rows="6" placeholder="用件をご記入ください..."></textarea>
+                        <textarea name="" class="jsc_form" id="" rows="6" placeholder="用件をご記入ください..."></textarea>
                     </li>
                 </ul>
                 <input type="submit" value="送信" id="contact_submitbutton">
