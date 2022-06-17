@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <title></title>
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_box">
+            <h1 class="header_logo"><a href="">LOGO</a></h1>
+            <div class="header_button">
+                <p><a href="">お問い合わせ</a></p>
+            </div>
+        </div>
+
+        <nav class="header_nav">
+            <ul class="header_list">
+                <li class="header_list_item"><a href="#profile">PROFILE</a></li>
+                <li class="header_list_item"><a href="#myworks">MY WORKS</a></li>
+                <li class="header_list_item"><a href="#aboutme">ABOUT ME</a></li>
+                <li class="header_list_item"><a href="#activity">ACTIVITY</a></li>
+                <li class="header_list_item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="section mainVisual">
+            
+        </section>
+
+        <section class="section profile" id="profile" >
+            
+            <!-- 空白を挟むとclass複数指定可能 -->
+            <h2 ><span>PLOFILE</span></h2>
+            <ul id="profile_list">
+                <li class="profile_list_item"><p class="h2_p">ここに自己紹介が入ります。<br>自分の宣伝やコンセプトなど。魅せる文言を入力。</p></li>
+                <li class="profile_list_item"><img src="images/20220521_124051.jpg" alt="画像を読み込めません" style="width:300px ;"></li>
+            </ul>
+        </section>
+
+        <section class="section myworks" id="myworks">
+            <h2 ><span>MY WORKS</span></h2>
+
+            <ul class="some_list">
+                <li class="some_list_item">
+                    <div class="myworks_div">
+                        <img class="myworks_img" src="images/product.jpeg" alt="画像が読み込めません">
+                        <h3 class="myworks_name h3">ここに商品が入ります</h3>
+                        <p class="myworks_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+
+                <li class="some_list_item">
+                    <div class="myworks_div">
+                        <img class="myworks_img" src="images/product.jpeg" alt="画像が読み込めません">
+                        <h3 class="myworks_name h3">ここに商品が入ります</h3>
+                        <p class="myworks_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+
+                <li class="some_list_item">
+                    <div class="myworks_div">
+                        <img class="myworks_img" src="images/product.jpeg" alt="画像が読み込めません">
+                        <h3 class="myworks_name h3">ここに商品が入ります</h3>
+                        <p class="myworks_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section aboutme" id="aboutme">
+            <h2 ><span>ABOUT ME</span></h2>
+
+            <ul class="some_list">
+                <li class="some_list_item">
+                    <div class="aboutme_div">
+                        <img class="aboutme_img" src="images/staff.jpeg" alt="画像が読み込めません">
+                        <h3 class="aboutme_name h3">スタッフ</h3>
+                        <p class="aboutme_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+                <li class="some_list_item">
+                    <div class="aboutme_div">
+                        <img class="aboutme_img" src="images/staff.jpeg" alt="画像が読み込めません">
+                        <h3 class="aboutme_name h3">スタッフ</h3>
+                        <p class="aboutme_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+                <li class="some_list_item">
+                    <div class="aboutme_div">
+                        <img class="aboutme_img" src="images/staff.jpeg" alt="画像が読み込めません">
+                        <h3 class="aboutme_name h3">スタッフ</h3>
+                        <p class="aboutme_text h3_p">ここに説明文が入ります</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section activity" id="activity">
+            <h2 ><span>ACTIVITY</span></h2>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2 ><span>CONTACT</span></h2>
+            <div>
+                <ul class="contact_icon_list">
+                    <li class="contact_icon_list_item">
+                        <img src="images/tel.png" alt="">
+                        <p>012-345-6789</p>
+                    </li>
+                    <li class="contact_icon_list_item">
+                        <img src="images/mail.png" alt="">
+                        <p>simple@mail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <form>
+                <ul class="contact_list">
+                    <li class="contact_list_item">
+                        <p>お名前</p>
+                        <input type="text" placeholder="名前を記入" value="">
+                    </li>
+                    <li class="contact_list_item">
+                        <p>メールアドレス</p>
+                        <input type="text" placeholder="メールアドレスを記入" value="">
+                    </li>
+                    <li class="contact_list_item">
+                        <p>お電話番号</p>
+                        <input type="text" placeholder="お電話番号を記入" value="">
+                    </li>
+                    <li class="contact_list_item">
+                        <p>お問い合わせ内容</p>
+                        <textarea name="" id="" rows="6" placeholder="用件をご記入ください..."></textarea>
+                    </li>
+                </ul>
+                <input type="submit" value="送信" id="contact_submitbutton">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="footer_list">
+            <li class="footer_list_item">
+                <h3>フッター1</h3>
+                <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+            </li>
+            <li class="footer_list_item">
+                <h3>フッター2</h3>
+                <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+            </li>
+            <li class="footer_list_item">
+                <h3>フッター3</h3>
+                <p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+            </li>
+        </ul>
+        <div id="footer_copyright"><p>Copyright © popodesign.</p></div>
+    </footer>
+</body>
+
+</html>
