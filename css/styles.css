@@ -20,14 +20,14 @@ h2 span{
     font-weight: lighter;
     border-bottom: solid 3px black;
 }
-.h3{
+.section_subTitle{
     font-weight: lighter;
 }
-h2,.h3{
+h2,.section_subTitle{
     font-size: 20px;
     text-align: center;
 }
-.h2_p,.h3_p{
+.profile_name,.section_subText{
     text-align: center;
 }
 
