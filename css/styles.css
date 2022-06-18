@@ -202,3 +202,7 @@ h2,.section_subTitle{
 #footer_copyright p{
     margin: 0px;
 }
+
+.is_error{
+    background-color: rgba(255, 50, 50, 0.564);
+}
